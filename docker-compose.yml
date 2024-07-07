@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nodal-analysis:
+    container_name: nodal-analysis
+    build:
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - "8004:8004"
